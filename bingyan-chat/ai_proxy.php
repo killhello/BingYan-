@@ -17,7 +17,7 @@ if (empty($prompt)) {
 set_time_limit(130);
 ignore_user_abort(true);
 
-$apiKey = 'sk-9675ef21eb2e776420d1266cb8b6414ace8b362ea820bcf9c19312c40427ec91';
+$apiKey = 'YOUR API KEY';
 
 $postData = json_encode([
     'model' => 'gpt-5.4',
